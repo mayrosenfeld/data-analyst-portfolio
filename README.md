@@ -1,49 +1,45 @@
-📊 Data Analyst Portfolio (Python)
+# Academic Salaries Analysis (Python)
 
-Hi! My name is May Rosenfeld. This repository is where I’m building and sharing my data analysis projects using Python.
-I’m learning how to work with real data, find patterns, and turn them into useful insights.
+## Overview
+This project analyzes academic salaries data to explore patterns in compensation based on rank, discipline, years of service, and gender.  
+The goal is to identify trends and provide insights that could help understand salary structures in an academic setting.
 
-👩‍💻 About Me
+---
 
-I have a background in Computer Programming and I’m currently working toward becoming a Data Analyst.
-I enjoy working with data, especially cleaning it, exploring it, and figuring out what it’s telling me.
+## Dataset
+- Source: [CUNY LaGuardia Data Analytics Salaries CSV](https://raw.githubusercontent.com/CunyLaguardiaDataAnalytics/datasets/master/Salaries.csv)
+- Columns include:
+  - `rank`: Academic rank (Prof, Asst Prof, Assoc Prof)
+  - `discipline`: Discipline type (A/B)
+  - `yrs.since.phd`: Years since PhD
+  - `yrs.service`: Years of service
+  - `sex`: Male/Female
+  - `salary`: Annual salary
 
-🛠️ Skills & Tools
+---
 
-Python (Pandas, Matplotlib, Seaborn)
+## Tools Used
+- Python
+- Pandas
+- Matplotlib
 
-Data cleaning
+---
 
-Exploratory data analysis
+## Key Questions Explored
+1. How does salary vary by academic rank?  
+2. Are there salary differences between disciplines?  
+3. How does years since PhD affect salary?  
+4. Are there differences in salary by gender?  
 
-Data visualization
+---
 
-📂 Projects
-Sales Data Analysis
+## Analysis & Insights
+- Professors with higher ranks earn more than junior faculty, as expected.  
+- Salaries vary slightly between disciplines A and B.  
+- Salary tends to increase with years since PhD, showing experience matters.  
+- Comparing salaries by gender can reveal potential pay gaps.  
 
-Looking at sales data to understand trends, top products, and customer behavior.
+---
 
-Data Quality Analysis
-
-Exploring error data to find patterns and common issues, and thinking about how to improve processes.
-
-Expense Analysis
-
-Analyzing personal spending to better understand habits and monthly trends.
-
-🌱 What I’m Working On
-
-Getting more comfortable with Python
-
-Practicing real-world data analysis
-
-Building projects for my portfolio
-
-🎯 Goal
-
-I’m working toward getting a Data Analyst role and continuing to improve my skills through hands-on projects.
-
-📬 Contact
-
-Email: rosenfeld.may@gmail.com
-Feel free to reach out or connect!
+## Files
+- `academic-salaries-analysis.ipynb` — Notebook containing all code, analysis, and visualizations
