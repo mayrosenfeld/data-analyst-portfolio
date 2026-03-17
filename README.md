@@ -1,49 +1,44 @@
-📊 Data Analyst Portfolio (Python)
+# Weather Data Analysis
 
-Hi! My name is May Rosenfeld. This repository is where I’m building and sharing my data analysis projects using Python.
-I’m learning how to work with real data, find patterns, and turn them into useful insights.
+## Overview
+This project analyzes a real-world weather dataset to explore patterns in temperature, humidity, precipitation, and visibility.  
+The goal is to identify seasonal trends and understand general weather conditions.
 
-👩‍💻 About Me
+## Dataset
+- Source: [CUNY LaGuardia Data Analytics Weather CSV](https://raw.githubusercontent.com/CunyLaguardiaDataAnalytics/datasets/refs/heads/master/weather.csv)
+- Columns include:
+  - `year`, `month`, `day`, `hour` — date and time of the reading
+  - `origin` — weather station code
+  - `temp` — temperature (°F)
+  - `dewp` — dew point (°F)
+  - `humid` — humidity (%)
+  - `wind_speed` and `wind_gust` — wind conditions (mph)
+  - `precip` — precipitation (inches)
+  - `pressure` — atmospheric pressure (mb)
+  - `visib` — visibility (miles)
 
-I have a background in Computer Programming and I’m currently working toward becoming a Data Analyst.
-I enjoy working with data, especially cleaning it, exploring it, and figuring out what it’s telling me.
+## Tools Used
+- Python
+- Pandas
+- Matplotlib
 
-🛠️ Skills & Tools
+## Analysis & Charts
+The analysis includes:
+1. Average Temperature by Month  
+2. Temperature vs Dew Point  
+3. Humidity Distribution  
+4. Days with vs without Rain  
+5. Precipitation Distribution / Total Monthly Precipitation  
+6. Visibility Distribution  
 
-Python (Pandas, Matplotlib, Seaborn)
+## Key Insights
+- **Temperature Trends:** Average temperatures vary by month, showing seasonal patterns. Dew point correlates with temperature, indicating humidity trends.  
+- **Humidity:** Most readings fall in a moderate range, with occasional extremes.  
+- **Precipitation:** Only a portion of days have measurable rain. Monthly totals show wetter months.  
+- **Visibility:** Generally high, with occasional low-visibility days due to weather events.  
 
-Data cleaning
+**Overall:**  
+This project demonstrates data cleaning, aggregation, visualization, and interpretation of multiple weather metrics from real-world data.
 
-Exploratory data analysis
-
-Data visualization
-
-📂 Projects
-Sales Data Analysis
-
-Looking at sales data to understand trends, top products, and customer behavior.
-
-Data Quality Analysis
-
-Exploring error data to find patterns and common issues, and thinking about how to improve processes.
-
-Expense Analysis
-
-Analyzing personal spending to better understand habits and monthly trends.
-
-🌱 What I’m Working On
-
-Getting more comfortable with Python
-
-Practicing real-world data analysis
-
-Building projects for my portfolio
-
-🎯 Goal
-
-I’m working toward getting a Data Analyst role and continuing to improve my skills through hands-on projects.
-
-📬 Contact
-
-Email: rosenfeld.may@gmail.com
-Feel free to reach out or connect!
+## Files
+- `weather-data-analysis.ipynb` — Notebook containing code, charts, and analysis.
